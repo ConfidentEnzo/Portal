@@ -1,0 +1,812 @@
+[ 2016-07-15T11:06:03+08:00 ] ::1 /yingsen/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cuisine` [ RunTime:0.0830s ]
+SQL: SELECT * FROM `cuisine` WHERE `is_show` = 1 LIMIT 4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-15T11:06:08+08:00 ] ::1 /yingsen/index.php/Home/page/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `comment`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-15T22:46:53+08:00 ] ::1 /new/index.php/home/page/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014424s ]
+ERR: SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)
+
+[ 2016-07-15T22:46:57+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+ERR: SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)
+
+[ 2016-07-15T22:53:27+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+ERR: SQLSTATE[HY000] [1049] Base 'yingsen' inconnue
+
+[ 2016-07-15T22:53:27+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+ERR: SQLSTATE[HY000] [1049] Base 'yingsen' inconnue
+
+[ 2016-07-15T22:53:28+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+ERR: SQLSTATE[HY000] [1049] Base 'yingsen' inconnue
+
+[ 2016-07-15T22:53:28+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+ERR: SQLSTATE[HY000] [1049] Base 'yingsen' inconnue
+
+[ 2016-07-15T22:57:26+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:27+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001986s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:27+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:28+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:28+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001368s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:28+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:32+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:32+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001698s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:32+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:33+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:33+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:34+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:34+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002995s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:34+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001618s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:34+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:35+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:35+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:36+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:36+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:36+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:37+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:37+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:37+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001666s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:38+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:40+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001891s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:41+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:41+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:41+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:42+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001726s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:42+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:42+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:42+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:42+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:43+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:43+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001910s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:43+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001849s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:43+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T22:57:44+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001838s ]
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+ERR: 1146:La table 'xiyu.cuisine' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cuisine`
+
+[ 2016-07-15T23:02:36+08:00 ] ::1 /new/index.php/home/page/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+SQL: SHOW COLUMNS FROM `cuisine` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `cuisine` WHERE `is_show` = 1 LIMIT 4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000362s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000770s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.165002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.165198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002540s ]
+
+[ 2016-07-15T23:03:11+08:00 ] ::1 /new/index.php/Home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002132s ]
+
+[ 2016-07-15T23:03:22+08:00 ] ::1 /new/index.php/Home/page/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `comment`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2016-07-15T23:03:37+08:00 ] ::1 /new/index.php/Home/page/recent.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `cuisine` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `cuisine`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2016-07-15T23:03:59+08:00 ] ::1 /new/index.php/Home/page/gallery1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2016-07-15T23:03:59+08:00 ] ::1 /new/index.php/Home/page/js/jquery.chocolat.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+ERR: 非法操作:js
+
+[ 2016-07-15T23:03:59+08:00 ] ::1 /new/index.php/Home/page/css/chocolat.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+ERR: 非法操作:css
+
+[ 2016-07-15T23:04:15+08:00 ] ::1 /new/index.php/Home/page/gallery2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2016-07-15T23:04:30+08:00 ] ::1 /new/index.php/Home/page/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `cuisine` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `cuisine` WHERE `is_show` = 1 LIMIT 4   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2016-07-15T23:05:02+08:00 ] ::1 /new/index.php/Home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+
+[ 2016-07-15T23:05:02+08:00 ] ::1 /new/index.php/Home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-07-15T23:05:09+08:00 ] ::1 /new/index.php/Home/index/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `user` WHERE `account` = 'yingsen' AND `password` = 'yingsen' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-07-15T23:05:10+08:00 ] ::1 /new/index.php/Home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2016-07-15T23:05:24+08:00 ] ::1 /new/index.php/Home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2016-07-15T23:05:44+08:00 ] ::1 /new/index.php/Home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
